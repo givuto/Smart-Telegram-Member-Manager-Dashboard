@@ -1,11 +1,31 @@
 # Smart Telegram Member Manager + Dashboard
 
-<p align="center">
-  <img src="assets/dashboard-hero.png" alt="Smart Telegram Member Manager Dashboard" width="100%" />
-</p>
+<p align="center"><strong>Premium Telegram campaign operations platform</strong></p>
+<p align="center">Run campaigns, manage accounts, apply safety guardrails, and monitor results in one dashboard.</p>
+
+> For access requests, demos, or collaboration, contact me on Telegram: [@scriptsIntern](https://t.me/scriptsIntern)
+
+
+## Dashboard Screenshots
+
+| Main Dashboard | Campaign View |
+|---|---|
+| ![Main Dashboard](assets/dashboard.png) | ![Campaign View](assets/campaign.png) |
+
+| Accounts | Settings Overview |
+|---|---|
+| ![Accounts](assets/accounts.png) | ![Settings](assets/settings.png) |
+
+| Settings Controls | More Settings |
+|---|---|
+| ![Settings Controls](assets/settings-controls.png) | ![More Settings](assets/more-settings.png) |
+
+| Global Controls |
+|---|
+| ![Global Controls](assets/global controls.png) |
 
 <p align="center"><strong>Premium Telegram campaign operations platform</strong></p>
-<p align="center">Live control, account orchestration, risk guardrails, and real-time reporting in one dashboard.</p>
+<p align="center">Run campaigns, manage accounts, apply safety guardrails, and monitor results in one dashboard.</p>
 
 > [!IMPORTANT]
 > This repository is a public product showcase.  
@@ -13,57 +33,57 @@
 
 ## What This Project Is
 
-Smart Telegram Member Manager is a dashboard-first platform for running Telegram growth campaigns with stronger control, safety, and visibility than basic scripts.
+Smart Telegram Member Manager is a battle-tested member adder script built for reliable, large-scale campaign execution. It combines multi-account automation, smart safety controls, adaptive performance tuning, and a live dashboard so you can launch, monitor, and optimize campaigns from one place.
+
 
 ## What Users Get
 
 - Dashboard-based campaign control and monitoring
-- Multi-account session management
+- Multi-account session management with code verification flow
 - Multi-campaign architecture with templates and presets
-- Smart safety automation to reduce account pressure
-- Real-time progress, logs, and run analytics
-- JSON + CSV reporting for operational review
+- Smart safety automation to reduce pressure and rate-limit risk
+- Real-time progress, logs, checkpoints, and recovery actions
+- JSON + CSV reporting for operational review and tuning
 
 ## Premium Features
 
 ### Campaign Execution
 - Bulk member-add campaign flow
 - Multi-source support for source links
-- Public source scraping (with optional aggressive mode)
+- Public source scraping with optional aggressive mode
 - Auto-join source links during runtime
 - Per-account caps and pacing controls
+- Cross-source dedupe and progress tracking
 - Resume mode from checkpoint
 - Retry-failed mode from checkpoint
-- Cross-source dedupe and run-level progress tracking
 
 ### Account Operations
-- Phone code request + verify flow
+- Phone code request and verify workflow
 - 2FA-aware verification support
 - Session persistence and account deduplication
-- Delete account + cleanup session file
+- Account delete and session cleanup
 - Banned account filtering support
-- Account health status tracking (ready, busy, cooling, warm-up)
+- Account health visibility (ready, busy, cooling, warm-up)
 
 ### Safety and Stability
 - Auto-pause on high error rate
 - Stop on no-success window
 - Stop on low ready-account threshold
 - Stop on rate-limit burst threshold
-- Auto-resume with wait + max-attempt controls
-- FloodWait/PeerFlood-aware cooldown logic
+- Auto-resume with wait and max-attempt controls
+- FloodWait/PeerFlood-aware cooldown handling
 - Smart Start Guard (`auto` / `suggest`)
 - Safety response mode (`manual` / `auto`)
 
 ### Smart Performance System
 - Auto account allocator with min/max boundaries
-- Allocator expand-on-healthy control
-- Allocator shrink-on-pressure control
-- Adaptive concurrency backoff + recovery
+- Allocator expand-on-healthy and shrink-on-pressure controls
+- Adaptive concurrency backoff and recovery
 - Weighted source scheduler
 - Source fatigue guard with cooldown windows
 - Source quality scoring panel
 - Account class routing (`cold`, `warm`, `hot`)
-- Promotion/demotion based on score + rate-limit history
+- Promotion/demotion by score and rate-limit history
 - Fair-share governor for concurrent campaigns
 - Campaign priority weighting in weighted fair-share mode
 
@@ -87,7 +107,7 @@ Smart Telegram Member Manager is a dashboard-first platform for running Telegram
 - JSON + CSV run reports
 - Error breakdown insights from latest report
 - Source quality metrics: score, attempts, success, rate hits, fatigue hits
-- Settings backup + restore support
+- Settings backup and restore support
 
 ### Utility Tools Included
 - Send message from all accounts
@@ -96,33 +116,17 @@ Smart Telegram Member Manager is a dashboard-first platform for running Telegram
 - Report group/channel from all accounts
 - Hidden-member scrape/add helper flow
 
-## Dashboard Screenshots
 
-Add your image files in `assets/` with these names:
-
-- `dashboard-hero.png`
-- `dashboard-overview.png`
-- `dashboard-campaigns.png`
-- `dashboard-settings.png`
-- `dashboard-reports.png`
-
-| Overview | Campaigns |
-|---|---|
-| ![Dashboard Overview](assets/dashboard-overview.png) | ![Dashboard Campaigns](assets/dashboard-campaigns.png) |
-
-| Settings | Reports |
-|---|---|
-| ![Dashboard Settings](assets/dashboard-settings.png) | ![Dashboard Reports](assets/dashboard-reports.png) |
 
 ## Typical Workflow
 
-1. Add and verify account sessions
-2. Create or select a campaign
-3. Run preflight and review dry-run guidance
-4. Apply preset/template and launch
-5. Monitor live dashboard progress
-6. Resume/retry from checkpoint when needed
-7. Review reports and auto-tune next run
+1. Add and verify account sessions.
+2. Create or select a campaign.
+3. Run preflight and review dry-run guidance.
+4. Apply preset/template and launch.
+5. Monitor live dashboard progress.
+6. Resume/retry from checkpoint when needed.
+7. Review reports and auto-tune the next run.
 
 ## Repository Status
 
@@ -130,3 +134,7 @@ Add your image files in `assets/` with these names:
 - Source code: private
 - Access/release updates: posted in this repository
 
+## Contact
+
+For access requests, demos, or collaboration:  
+contact me on Telegram: [@scriptsIntern](https://t.me/scriptsIntern)
